@@ -1,1 +1,1 @@
-# ida_pro_scripts
+# IDA Pro python scripts
