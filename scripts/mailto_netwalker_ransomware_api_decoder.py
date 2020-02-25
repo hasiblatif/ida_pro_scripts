@@ -73,7 +73,7 @@ def get_names(crc32_dict):
 	
 
 # predefined crc32 of Windows APIs
-with open("crc32.txt") as f:
+with open("win_apis_crc32.json") as f:
 	crc32_dict_ = json.load(f)
 # find decoding function calls and create custom IAT 
 iat = get_names(crc32_dict_)
